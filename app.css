@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+svg {
+  background-color: #fff;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: fixed;
+}
+
+#node-container-mouse-area {
+	fill: transparent;
+	/*fill: #b2dfdb;*/
+	fill: #64ffda;
+}
+
+path.link {
+  fill: none;
+  /*stroke: #000;*/
+  stroke-width: 3px;
+  cursor: default;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+circle.node {
+  stroke-width: 1.5px;
+  /*cursor: pointer;*/
+}
+
+text {
+  font: 14px sans-serif;
+  pointer-events: none;
+}
+
+text.id {
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.graph-menu {
+    height: 100%;
+    background-color: #333;
+    width: 300px;
+    display: inline-block;
+}
